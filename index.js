@@ -1,6 +1,33 @@
-function printMsg(){
+const input1 = document.getElementById('button1');
+input1.addEventListener('click', function() {
+    document.head.insertAdjacentHTML( 'beforeend', '<link rel=stylesheet href=./style.css' );
+});
+const input2 = document.getElementById('button2');
+input2.addEventListener('click', function() {
+    document.head.insertAdjacentHTML( 'beforeend', '<link rel=stylesheet href="./style2.css' );
+});
+const input3 = document.getElementById('button3');
+input3.addEventListener('click', function() {
+    document.head.insertAdjacentHTML( 'beforeend', '<link rel=stylesheet href="./style3.css' );
+});
 
-    let inputVal = document.getElementById("nameTxt");
-    let nameVal = inputVal.value;
-    document.getElementById("welcomeMsg").innerText = "Hello " + nameVal;
+
+document.getElementById("fNameForm").onkeyup = function() {
+    let stringValue = document.getElementById("fNameForm").value;
+    document.getElementById("firstNameP").innerText = stringValue;
+}
+
+document.getElementById("lNameForm").onkeyup = function() {
+    let stringValue = document.getElementById("lNameForm").value;
+    document.getElementById("secondNameP").innerText = stringValue;
+}
+
+document.getElementById("dateForm").onkeyup = function() {
+    let stringValue = document.getElementById("dateForm").value;
+    document.getElementById("dateP").innerText = stringValue;
+}
+
+document.getElementById("locationForm").onkeyup = function() {
+    let stringValue = document.getElementById("locationForm").value;
+    document.getElementById("locationP").innerText = stringValue;
 }

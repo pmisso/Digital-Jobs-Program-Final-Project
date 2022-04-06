@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Placeholder</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <h1>Title - Some Invitation Site</h1>
-    <div id="navbar">
-        <ul>
-            <li a target="_blank">About</li>
-            <li a target="_blank">Style 1</li>
-            <li a target="_blank">Style 2</li>
-            <li a target="_blank">Style 3</li>
-        </ul>
-        <br>
-        <span></span>
+    <link rel="stylesheet" href="../Final-Project-files/css/style.css">
+    
+    <div id="headDiv">
+        <h1>Title</h1>
+    </div>
+
+    <div id="navDiv">
+        <nav id="navBar">
+            <ul>
+                <li>
+                    <button id="button1">style 1</button>
+                </li>
+                <li>
+                    <button id="button2">style 2</button>
+                </li>
+                <li>
+                    <button id="button3">style 3</button>
+                </li>
+            </ul>
+        </nav>
     </div>
 </head>
 
 <body>
+    <div id="column1">
 
-    <div class = "form1">
-        <label for="nametxt">First Name: </label>
-        <br>
-        <input type="text" id="nameTxt">
+        <h1 id="col1Heading">Input your information here:</h1>
+
+        <div id="col1forms">
+            <form>
+                <label for="fNameForm" class="formlabels">Person 1 name:</label>
+                <br>
+                    <input type="text" class="formboxes1" id="fNameForm" name="fName">
+                <br>
+                <label for="lNameForm" class="formlabels">Person 2 name:</label>
+                <br>
+                    <input type="text" class="formboxes1" id="lNameForm" name="lName">
+                    <br>
+                <label for="dateForm" class="formlabels">Date:</label>
+                <br>
+                    <input type="text" class="formboxes1" id="dateForm" name="date">
+                    <br>
+                <label for="locationForm" class="formlabels">Location:</label>
+                <br>
+                    <input type="text" class="formboxes1" id="locationForm" name="location">
+                    <br>
+            </form>
+        </div>
+
+
     </div>
-    <br><br>
 
-    <div class = "form1">
-        <label for="nametxt">Middle Name (if applicable): </label>
+
+
+
+    <div id="column2">
+        
+
+            <h2>Here is your output:</h2>
+
+        <div id="column2background">
+            <div id="firstNameDiv" class="col2divs">
+                <p id="firstNameP"></p>
+            </div>
+            <br>
+            <div id="andDiv" class="col2divs">
+                <p id="andP">and</p>
+            </div>
+            <br>
+            <div id="secondNameDiv" class="col2divs">
+                <p id="secondNameP"></p>
+            </div>
+            <br>
+            <div id="dateDiv" class="col2divs">
+                <p id="dateP"></p>
+            </div>
+            <br>
+            <div id="locationDiv" class="col2divs">
+                <p id="locationP"></p>
+            </div>
+        </div>
         <br>
-        <input type="text" id="nameTxt">
+
     </div>
-    <br><br>
-
-    <div class = "form1">
-        <label for="nametxt">Last Name: </label>
-        <br>
-        <input type="text" id="nameTxt">
-    </div>
-    <br><br>
-
-    <div class = "form1">
-        <label for="nametxt">Date: </label>
-        <br>
-        <input type="text" id="nameTxt">
-    </div>
-    <br><br>
-
-    <div class = "form1">
-        <label for="nametxt">Wedding Location: </label>
-        <br>
-        <input type="text" id="nameTxt">
-    </div>
-    <br><br>
-
-    <button onclick="printMsg();">Click Here!</button>
-
-    <br><br>
     
-    <p id="welcomeMsg" style="color: green;"></p>
 </body>
+
 
 <script type = "text/javascript" src = "index.js"></script>
