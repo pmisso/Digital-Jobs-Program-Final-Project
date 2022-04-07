@@ -1,14 +1,17 @@
 const input1 = document.getElementById('button1');
 input1.addEventListener('click', function() {
-    document.head.insertAdjacentHTML( 'beforeend', '<link rel=stylesheet href=./style.css' );
+    let link = document.getElementById('styleSheet');
+    link.setAttribute('href', './css/style.css');
 });
 const input2 = document.getElementById('button2');
 input2.addEventListener('click', function() {
-    document.head.insertAdjacentHTML( 'beforeend', '<link rel=stylesheet href="./style2.css' );
+    let link = document.getElementById('styleSheet');
+    link.setAttribute('href', './css/style2.css');
 });
 const input3 = document.getElementById('button3');
 input3.addEventListener('click', function() {
-    document.head.insertAdjacentHTML( 'beforeend', '<link rel=stylesheet href="./style3.css' );
+    let link = document.getElementById('styleSheet');
+    link.setAttribute('href', './css/style3.css');
 });
 
 

@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="./css/style.css">
-
+    <link id="styleSheet" rel="stylesheet" href="./css/style.css">
+    <title>Invite Right</title>
     <div id="headDiv">
-        <h1>Title</h1>
+        <h1 id="topHeading">Invite Right</h1>
+        <h3 id="topSubHeading">Find the right inspiration for your special day</h3>
     </div>
 
     <div id="navDiv">
         <nav id="navBar">
             <ul>
                 <li>
-                    <button id="button1">style 1</button>
+                    <button id="button1">Black and Gold Party Theme</button>
                 </li>
                 <li>
-                    <button id="button2">style 2</button>
+                    <button id="button2">Light Floral Theme</button>
                 </li>
                 <li>
-                    <button id="button3">style 3</button>
+                    <button id="button3">Verdant Floral Theme</button>
                 </li>
             </ul>
         </nav>
@@ -27,25 +28,25 @@
 <body>
     <div id="column1">
 
-        <h1 id="col1Heading">Input your information here:</h1>
+        <h2 id="col1Heading">Just type your information in here:</h2>
 
         <div id="col1forms">
             <form>
-                <label for="fNameForm" class="formlabels">Person 1 name:</label>
+                <label for="fNameForm" class="formlabels">Person 1:</label>
                 <br>
-                    <input type="text" class="formboxes1" id="fNameForm" name="fName">
+                    <input type="text" class="formboxes1" id="fNameForm" name="fName" maxlength="20" placeholder="Enter person 1">
                 <br>
-                <label for="lNameForm" class="formlabels">Person 2 name:</label>
+                <label for="lNameForm" class="formlabels">Person 2:</label>
                 <br>
-                    <input type="text" class="formboxes1" id="lNameForm" name="lName">
+                    <input type="text" class="formboxes1" id="lNameForm" name="lName" maxlength="20" placeholder="Enter person 2">
                     <br>
                 <label for="dateForm" class="formlabels">Date:</label>
                 <br>
-                    <input type="text" class="formboxes1" id="dateForm" name="date">
+                    <input type="text" class="formboxes1" id="dateForm" name="date" maxlength="60" placeholder="Enter a Date">
                     <br>
                 <label for="locationForm" class="formlabels">Location:</label>
                 <br>
-                    <input type="text" class="formboxes1" id="locationForm" name="location">
+                    <input type="text" class="formboxes1" id="locationForm" name="location" maxlength="60" placeholder="Enter the location Address">
                     <br>
             </form>
         </div>
@@ -53,13 +54,10 @@
 
     </div>
 
-
-
-
     <div id="column2">
         
 
-            <h2>Here is your output:</h2>
+            <h2 id="col2heading ">And this is what your invitation will look like:</h2>
 
         <div id="column2background">
             <div id="firstNameDiv" class="col2divs">

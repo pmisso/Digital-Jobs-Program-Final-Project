@@ -1,13 +1,248 @@
-#navbar ul {
-    list-style-type: none;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    background-color: rgb(255, 228, 243);
+}
+h1 {
+    font-family: 'Lily Script One';
+    font-weight:500;
+    font-stretch:expanded;
 }
 
-#navbar li {
+#topHeading {
+    position: relative;
+    right: 50px;
+}
+
+#topSubHeading {
+    position: relative;
+    right: 50px;
+}
+
+h2 {
+    font-family: 'Lily Script One';
+    font-weight:500;
+    font-stretch:expanded;
+}
+
+h3 {
+    font-family: 'Lily Script One';
+    font-weight:500;
+    font-stretch:expanded;
+}
+
+label {
+    font-family: 'Lily Script One';
+    font-weight:400;
+    font-stretch:expanded;
+    margin-left: 5%;  
+}
+
+#headDiv {
+    background-image:url(../floralbg2.jpg);
+    background-size:cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 7px solid rgb(215, 185, 9);
+}
+
+#headDiv h1 {
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    left: 15%;
+    right: 85%;
+}
+
+#headDiv h3 {
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    left: 15%;
+    right: 85%;
+}
+
+#navDiv {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+#navBar li {
+    font-family: Helvetica;
     float: left;
-    padding-right: 10px;
-    padding-left: 10px;
+    list-style-type: none;
+    width: 33.3%;
 }
 
-.form1 {
-    padding-top: 35px;
+#navBar button {
+    font-family: 'Lily Script One';
+    font-size: 20px;
+    font-weight:100;
+    border-style: 2px 2px solid black;
+    border-radius: 15%;
+    background-size: 40px;
+    background-color: rgba(219, 93, 254, 0.318);
+  
 }
+
+#navBar button:hover {
+    background-color: rgb(238, 125, 255);
+}
+
+#navBar button:active {
+    background-color: rgb(218, 47, 252);
+}
+
+#column1 {
+    display:block;
+    height:800px;
+    width: 50%;
+    float:left;
+    margin-top: 50px;
+}
+
+#col1Heading {
+    font-family: 'Lily Script One';
+    font-size:25px;
+    margin-left: 150px;
+    margin-right: 10px;
+    text-decoration-line:underline;
+
+}
+
+#col1forms {
+    margin-left: 25%;
+    margin-right: 10px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.formboxes1 {
+    margin-bottom: 40px;
+}
+
+#column2 {
+    display:block;
+    height: 800px;
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+
+#column2background {
+    background-size: cover;
+    background-image: url(../invite2.jpg);
+    height: 700px;
+    width: 600px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    background-color:rgb(198, 237, 255)
+}
+
+.col2divs {
+    position:relative;
+    top: 40px;
+}
+
+#col2heading {
+    position: relative;
+    left: 50px;
+    text-decoration-line:underline;
+}
+
+
+#firstNameDiv {
+    height: 40px;
+    position: relative;
+    top: 215px;
+    right: 35px;
+    text-align: center;
+}
+
+#andDiv {
+    height: 20px;
+    position: relative;
+    top: 200px;
+    right: 25px;
+}
+
+#secondNameDiv {
+    height: 40px;
+    position: relative;
+    top: 150px;
+}
+
+#dateDiv {
+    position: relative;
+    top: 180px;
+}
+
+#locationDiv {
+    position: relative;
+    top: 100px;
+}
+
+#firstNameP {
+    text-align: center;
+    font-family: "League Script";
+    font-size: 75px;
+    font-weight: bolder;
+    transform:rotate(-10deg);
+    color:rgb(255, 130, 174);
+    text-shadow: 3px 2px 4px rgb(48, 0, 29);
+    
+}
+
+#andP {
+    position: relative;
+    text-align: center;
+    font-family: "League Script";
+    font-size: 45px;
+    font-weight: bolder;
+    transform:rotate(-10deg);
+    color:rgb(255, 130, 174);
+    text-shadow: 2px 1px 3px rgb(48, 0, 29);    
+}
+
+#secondNameP {
+    text-align: center;
+    font-family: "League Script";
+    font-size: 75px;
+    font-weight: bolder;
+    transform:rotate(-10deg);
+    color:rgb(255, 130, 174);
+    text-shadow: 3px 2px 4px rgb(48, 0, 29);
+    
+}
+#dateP {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    transform:rotate(-10deg);
+    font-family: "League Script";
+    height: 40px;
+    color:rgb(255, 130, 174);
+    text-shadow: 2px 1px 2px rgb(48, 0, 29);
+    
+}
+#locationP {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    transform:rotate(-10deg);
+    font-family: "League Script";
+    height: 40px;
+    color:rgb(255, 130, 174);
+    text-shadow: 2px 1px 2px rgb(48, 0, 29);
+    
+}
+
