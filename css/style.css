@@ -115,6 +115,7 @@ label {
 #col1Heading {
     font-family: 'Lily Script One';
     font-size:25px;
+    font-weight: lighter;
     margin-left: 150px;
     margin-right: 10px;
     text-decoration-line:underline;
@@ -178,12 +179,12 @@ label {
 #secondNameDiv {
     height: 40px;
     position: relative;
-    top: 50px;
+    top: 70px;
 }
 
 #dateDiv {
     position: relative;
-    top: 100px;
+    top: 140px;
 }
 
 #locationDiv {
@@ -230,6 +231,8 @@ label {
     font-size: 30px;
     font-family: "Dancing Script";
     height: 40px;
+    width: 75%;
+    margin-left: 12.5%;
     color:rgb(255, 190, 116);
     
 }

@@ -156,7 +156,7 @@ label {
 #col2heading {
     position: relative;
     left: 50px;
-    text-decoration-line:underline;
+    text-decoration-line: underline;
 }
 
 
@@ -183,7 +183,7 @@ label {
 
 #dateDiv {
     position: relative;
-    top: 180px;
+    top: 160px;
 }
 
 #locationDiv {
@@ -241,6 +241,8 @@ label {
     transform:rotate(-10deg);
     font-family: "League Script";
     height: 40px;
+    width: 60%;
+    margin-left: 20%;
     color:rgb(255, 130, 174);
     text-shadow: 2px 1px 2px rgb(48, 0, 29);
     
